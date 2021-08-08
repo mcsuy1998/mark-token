@@ -1,0 +1,18 @@
+[project]
+name = "mark-token"
+requirements = []
+[contracts.mark-token]
+path = "contracts/mark-token.clar"
+depends_on = ["sip009-nft-trait"]
+
+[contracts.market]
+path = "contracts/market.clar"
+depends_on = []
+
+[contracts.sip009-nft-trait]
+path = "contracts/sip009-nft-trait.clar"
+depends_on = []
+
+[contracts.timelock]
+path = "contracts/timelock.clar"
+depends_on = []
